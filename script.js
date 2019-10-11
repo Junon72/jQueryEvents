@@ -203,5 +203,6 @@ $(document).ready(function () {
         $("#button_six").fadeTo('medium', 1);
     });
 
+   $('#myButton').removeClass('blueBox').addClass('border');
 });
 
