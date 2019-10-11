@@ -71,3 +71,7 @@ Using addClass and removeClass:
 ### Challenge - 3
 
 1. Changed the toggle to slideToggle
+
+### Challenge - 4
+
+1. Used fadeTo in conjunction with mouseenter  and  mouseleave  to make the button fade to 50% opacity on mouseenter and fade back to 100% on mouseleave
