@@ -68,5 +68,6 @@ Using addClass and removeClass:
 
 4. Made Button 1 appear with the click of Button 2 - to get it back
 
+### Challenge - 3
 
-
+1. Changed the toggle to slideToggle

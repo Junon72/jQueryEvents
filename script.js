@@ -118,31 +118,90 @@ $(document).ready(function () {
         $("#button_one").slideToggle('medium');
     });
     //2.    Make the paragraph in a card hide and reappear by click a button
+    //3.    Change the .toggle to .toggleSlide
     $("#button_one").click(function() {
-        $("#para_one").toggle('medium');
+        $("#para_one").slideToggle('medium');
     });
     
     $("#button_two").click(function() {
-        $("#para_two").toggle('medium');
-        $("#button_one").toggle('medium'); // wanted to get the Button 1 back 
+        $("#para_two").slideToggle('medium');
+        $("#button_one").slideToggle('medium'); // wanted to get the Button 1 back 
     });
 
     $("#button_three").click(function() {
-        $("#para_three").toggle('medium');
+        $("#para_three").slideToggle('medium');
     });
 
     $("#button_four").click(function() {
-        $("#para_four").toggle('medium');
+        $("#para_four").slideToggle('medium');
     });
 
     $("#button_five").click(function() {
-        $("#para_five").toggle('medium');
+        $("#para_five").slideToggle('medium');
     });
 
     $("#button_six").click(function() {
-        $("#para_six").toggle('medium');
+        $("#para_six").slideToggle('medium');
     });
 
+    //4.    Use fadeTo in conjunction with mouseenter  and  mouseleave  to modify the button. 
+    //      Fade to 50% opacity on mouseenter and fade back to 100% on mouseleave
+
+    //1
+    $("#button_one").mouseenter(function() {
+        $("#button_one").fadeTo("medium", 0.5);
+    });
+
+    $("#button_one").mouseleave(function() {
+        $("#button_one").fadeTo("medium", 1);
+    });
+
+    //2
+    $("#button_two").mouseenter(function() {
+        $("#button_two").fadeTo('medium', 0.5);
+    });
+
+    $("#button_two").mouseleave(function() {
+        $("#button_two").fadeTo('medium', 1);
+    });
+
+
+    //3
+    $("#button_three").mouseenter(function() {
+        $("#button_three").fadeTo('medium', 0.5);
+    });
+
+    $("#button_three").mouseleave(function() {
+        $("#button_three").fadeTo(')medium', 1);
+    });
+
+
+    //4
+    $("#button_four").mouseenter(function() {
+        $("#button_four").fadeTo('medium', 0.5);
+    });
+
+    $("#button_four").mouseleave(function() {
+        $("#button_four").fadeTo('medium', 1);
+    });
+
+    //5
+    $("#button_five").mouseenter(function() {
+        $("#button_five").fadeTo('medium', 0.5);
+    });
+
+    $("#button_five").mouseleave(function() {
+        $("#button_five").fadeTo('medium', 1);
+    });
+
+    //6
+    $("#button_six").mouseenter(function() {
+        $("#button_six").fadeTo('medium', 0.5);
+    });
+
+    $("#button_six").mouseleave(function() {
+        $("#button_six").fadeTo('medium', 1);
+    });
 
 });
 
