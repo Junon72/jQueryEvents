@@ -1,10 +1,13 @@
 $(document).ready(function () {
+    
+    // Events - Introduction
     $("#stream1_btn").on("click", function () { //could be also written in form .click(function(){});
         $(".stream1").removeClass('highlight_stream');
         $(".stream2").removeClass('highlight_stream');
         $(".stream3").removeClass('highlight_stream');
         $(".stream1").addClass('highlight_stream');
     });
+
     $("#stream2_btn").on("click", function () {
         $(".stream1").removeClass('highlight_stream');
         $(".stream2").removeClass('highlight_stream');
@@ -17,6 +20,13 @@ $(document).ready(function () {
         $(".stream3").removeClass('highlight_stream');
         $(".stream3").addClass('highlight_stream');
     });
+
+    /*******************************
+     jQuery Events - Solution code
+     *******************************/
+    
+     //Introductio Challenge
+
     //1.     on click, change the color of all <p> to red
     $("p").click(function () {
         $("p").addClass("paragraph_color");
@@ -94,6 +104,20 @@ $(document).ready(function () {
     $(".bottom_button").mouseleave(function () {
         $("body").addClass("page_toGrey");
     });
+
+    //Effects Challenge
+
+    //1.    Make the first button hide on mouse click, using different parameters
+    $("#button_one").click(function() {
+        //$("#button_one").hide('slow');
+        //$("#button_one").hide('medium');
+        //$("#button_one").hide('fast');
+        //$("#button_one").hide(2000);
+        //$("#button_one").fadeOut(700);
+        //$("#button_one").slideUp(300);
+        $("#button_one").slideToggle('medium');
+    });
+
 
 });
 

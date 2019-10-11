@@ -31,3 +31,30 @@ Using addClass and removeClass:
 
 5.  changed the page background color when moving off from over a button
 
+
+## jQuery Events - Effects
+
+### Items I covered on this course:
+
+1.  Introduced to the [jQuery User Interface](https://jqueryui.com/demos/) and to the [jQuery Effects documentation](https://api.jquery.com/category/effects/)
+
+2.  Introduced to different jQuery methods to hide, or make elements visible:
+    -   show()
+    -   hide()
+    -   toggle()
+    -   slideDown()
+    -   slideUp()
+    -   slideToggle()
+    -   fadeIn()
+    -   fadeOut()
+    -   fadeToggle()
+    -   fadeTo()
+
+### Challenge
+
+1.  Changed all the a tags to button elements and gave the first one an id
+
+2.  Made the first button hide on mouse click
+
+3.  Explored different speeds and methods
+
