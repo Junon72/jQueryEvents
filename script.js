@@ -117,6 +117,31 @@ $(document).ready(function () {
         //$("#button_one").slideUp(300);
         $("#button_one").slideToggle('medium');
     });
+    //2.    Make the paragraph in a card hide and reappear by click a button
+    $("#button_one").click(function() {
+        $("#para_one").toggle('medium');
+    });
+    
+    $("#button_two").click(function() {
+        $("#para_two").toggle('medium');
+        $("#button_one").toggle('medium'); // wanted to get the Button 1 back 
+    });
+
+    $("#button_three").click(function() {
+        $("#para_three").toggle('medium');
+    });
+
+    $("#button_four").click(function() {
+        $("#para_four").toggle('medium');
+    });
+
+    $("#button_five").click(function() {
+        $("#para_five").toggle('medium');
+    });
+
+    $("#button_six").click(function() {
+        $("#para_six").toggle('medium');
+    });
 
 
 });

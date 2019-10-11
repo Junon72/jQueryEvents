@@ -50,11 +50,23 @@ Using addClass and removeClass:
     -   fadeToggle()
     -   fadeTo()
 
-### Challenge
+### Challenge - 1
 
 1.  Changed all the a tags to button elements and gave the first one an id
 
 2.  Made the first button hide on mouse click
 
 3.  Explored different speeds and methods
+
+### Challenge - 2
+
+1.  Gave all the paragraphs in cards ids
+
+2.  Gave all the buttons in cards ids
+
+3.  Made individual paragraphs hide when button in their card is clicked and reappear when clicked again
+
+4. Made Button 1 appear with the click of Button 2 - to get it back
+
+
 
