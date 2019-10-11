@@ -91,6 +91,35 @@ div {
 	margin-top:10px;
 	margin-bottom:10px;
 }
+/*************************
+Challenge Solution code
+**************************/
+/* jQuery classes*/
+/* paragraph highlight */
+.paragraph_color {
+    color: red;
+}
+
+/* h2 highlight */
+.h2_hoverColor {
+    color: lightblue;
+}
+
+/* h2 font size */
+.h2_hoverFontSize {
+    font-size: 1.4em;
+}
+
+/* page background color on hover on button */
+.page_toBlack {
+    background-color: black;
+}
+
+/* page background color on hover off button */
+
+.page_toGrey {
+    background-color: grey;
+}
 
 /*************************
 Navigation
